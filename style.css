@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+}
+section header{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    top: 0;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 5px;
+    font-size: 16px;
+}
+section header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section header ul li{
+    list-style: none;
+    margin-left: 10px;
+}
+section header ul li a{
+    text-decoration: none;
+    color: #111;
+}
+section header ul li button{
+    outline: none;
+    border: none;
+    background-color: #4548ef;
+    padding: 8px 20px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.1s;
+}
+section header ul li button:hover{
+    color: white;
+    background-color: grey;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px #000000;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0.1s;
+}
+section .main{
+    width: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+section .main .searchbox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+section .main .searchbox .search{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+section .main .searchbox .icon{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+section .main .buttons{
+    margin-top: 20px;
+}
+section .main .buttons button{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: #f2f2f2;
+    margin-left: 9px;
+}
+
+section .main .buttons button:hover{
+    background-color: #c4c4c4;
+    transition: all 0.3s ease-in 0.2s;
+}
+
+section .main .lang{
+    margin-top: 15px;
+}
+section .footer{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(207, 207, 207);
+}
+section .footer .row{
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .footer .row ul{
+    display: flex;
+    margin: 7px;
+}
+section .footer .row ul li{
+    margin: 7px;
+    list-style: none;
+}
+section .footer .row ul li a{
+    text-decoration: none;
+    color: #111;
+}
+
